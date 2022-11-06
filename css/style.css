@@ -16,6 +16,22 @@ body{
     background: #007bff;
 }
 
+.goBack h1,a{
+	margin:10px;
+	color:#fff;
+	width:250px;
+	height:100px;
+	text-align: center;
+	text-decoration: none;
+	padding:20px;
+	border-radius: 7px;
+	transition:all 0.5s linear;
+}
+
+.goBack h1:hover{
+	background:#64a3e7;
+}
+
 .start_btn,
 .info_box,
 .quiz_box,
