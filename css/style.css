@@ -11,19 +11,23 @@ body{
     background: #007bff;
 }
 
+a{
+	cursor:pointer;
+}
+
 ::selection{
     color: #fff;
     background: #007bff;
 }
 
 .goBack h1,a{
-	margin:10px;
-	color:#fff;
+	margin:15px;
+	color:yellow;
 	width:250px;
 	height:100px;
 	text-align: center;
 	text-decoration: none;
-	padding:20px;
+	padding:25px 0;
 	border-radius: 7px;
 	transition:all 0.5s linear;
 }
